@@ -1,0 +1,60 @@
+
+"Window": {
+	backgroundColor: "#0047b3",
+	layout : 'vertical',
+	orientationModes: [
+		Ti.UI.PORTRAIT
+	]
+	
+}
+
+"Label": {
+	top: "5%",
+	bottom: "2%",
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+	height: Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	font: {
+		fontSize: 22,
+		fontFamily: 'Helvetica Neue'
+	},
+	color:"white",
+}
+
+
+
+"#views":{
+	 borderRadius:10,
+	 layout : 'composite',
+	   backgroundColor:"#ff0000",
+	   width:Ti.UI.SIZE,
+	   height: Ti.UI.SIZE,
+}
+"#two":{
+	width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    right:"60%",
+}
+
+"#imagem":{
+	width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    left:"70%",
+}
+
+
+"#toolbar":{
+	 top: "3%",
+    /* Spans the screen */
+    width: '100%',
+    /* Set the layout to horizontal
+     * so that the contens will be
+     * laid-out across the screen
+     */
+    layout: 'composite',
+    /* iOS toolbar is approximately
+       this height. */
+    height: '45dp',
+    backgroundColor: "#f8f8f8",
+    borderColor: "#CCCCCC",
+}

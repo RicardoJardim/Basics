@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="report">
+		<Label id="coord"/>
+		<TextField id="nome"/>
+		<Button id="button" onClick = "salvar">SAVE</Button>
+	</Window>    
+</Alloy>

@@ -1,0 +1,14 @@
+<Alloy>
+	<Window id="transfer">
+		<Label id="you"/>
+		<ScrollView id="scrollView" showVerticalScrollIndicator="true" layout="vertical" height="75%" width="95%">	
+		<View id= "views">
+			<Label id="two"/>
+			<ImageView id = "imagem"/>
+		</View>
+		
+		</ScrollView>
+		
+		<View id="toolbar"/>
+	</Window>
+</Alloy>

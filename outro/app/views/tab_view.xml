@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="window">
+		<Label>Pick a name to change is nation</Label>
+		<TableView id="tab_id">
+			
+		</TableView>
+		<TextField id="names"/>
+		<Button id="save" onClick= "savethis"> SAVE </Button>
+		<Button id="buts" onClick="voltar"> Go back</Button>
+	
+	</Window>
+</Alloy>

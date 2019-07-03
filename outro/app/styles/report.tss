@@ -1,0 +1,30 @@
+"Window": {
+	backgroundColor: "#0047b3",
+	layout : 'vertical',
+	orientationModes: [
+		Ti.UI.PORTRAIT
+	]
+	
+}
+
+
+"TextField": {
+	borderStyle: "Ti.UI.INPUT_BORDERSTYLE_BEZEL",
+	keyboardToolbarColor: "#999", 
+    keyboardToolbarHeight: "40",
+	width: 350,
+	height: 50,
+	color: "black",
+	borderRadius:"12",
+	hintTextColor :"#808080",
+}
+"#nome": {
+	top: "2%",
+	backgroundColor: "green",
+	color: "black",
+	hintText: "INSERT YOUR COUNTRY",
+}
+"#button":{
+	top:"2%",
+	
+}

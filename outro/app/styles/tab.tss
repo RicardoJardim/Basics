@@ -1,0 +1,60 @@
+"Window": {
+	backgroundColor: "#0047b3",
+	layout : 'vertical',
+	orientationModes: [
+		Ti.UI.PORTRAIT
+	]
+	
+}
+
+"Label": {
+	top: "5%",
+	borderRadius: "10",
+	backgroundColor:"#fff",
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000000",
+	
+	font: {
+		fontSize: 24,
+		fontFamily: 'Helvetica Neue'
+	}
+}
+
+
+"#escolha": {
+	borderRadius: "10",
+	backgroundColor: "green",
+	color:"black",	
+
+}
+
+
+
+"#save": {
+	right: "10",
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+
+}
+
+"#back": {
+	top:"3%",
+	right: "10",
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+}
+
+"#picker": {
+	backgroundColor: "#000080",
+	color:"#fff",
+	borderRadius: "5",
+	width: 200,
+	heigth: 100,
+	font: {
+		fontSize: 16,
+		fontFamily: 'Helvetica Neue'
+	},
+	left: "10",
+	top:"5%",
+}
+
+

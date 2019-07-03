@@ -1,0 +1,74 @@
+"Window": {
+	backgroundColor: "#0047b3",
+	layout : 'vertical',
+	orientationModes: [
+		Ti.UI.PORTRAIT
+	]
+	
+}
+
+"Label": {
+	top: "2%",
+	bottom: "2%",
+	borderRadius:"8",
+	backgroundColor:"#ff0000",
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#ffffff",
+	
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	}
+}
+
+"Button": {
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+}
+
+
+"TextField": {
+	backgroundColor: "yellow",
+	borderStyle: "Ti.UI.INPUT_BORDERSTYLE_BEZEL",
+	keyboardToolbarColor: "#999", 
+    keyboardToolbarHeight: "40",
+	width: 350,
+	height: 50,
+	color: "black",
+	borderRadius:"12",
+	hintTextColor :"#808080",
+}
+
+
+"#name": {
+	top: "2%",
+	backgroundColor: "green",
+	color: "black",
+	hintText: "Inserir o NOME",
+}
+
+"#country": {
+	top:"3%",
+	hintText: "Inserir o seu PAÍS"
+}
+
+"#save": {
+	top: "3%",
+}
+
+"#toolbar":{
+	 top: "5%",
+    /* Spans the screen */
+    width: '100%',
+    /* Set the layout to horizontal
+     * so that the contens will be
+     * laid-out across the screen
+     */
+    layout: 'composite',
+    /* iOS toolbar is approximately
+       this height. */
+    height: '45dp',
+    backgroundColor: "#f8f8f8",
+    borderColor: "#CCCCCC",
+}
+

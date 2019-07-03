@@ -1,0 +1,20 @@
+<Alloy>
+	<Window>
+		<Label>
+			Insert a value
+		</Label>
+		<TextField id="name"/>
+		<TextField id="country"/>	
+		<Button id="save" onClick="saveall">
+			Insert
+		</Button>
+		<Label onClick="show">
+			Show whats inside the database
+		</Label>
+		<Button id ="tab_id" onClick="tabela"> DELETE </Button>
+		<Button id="tab_view" onClick="tabela_view"> UPDATE </Button>
+		<Button id="next_page" onClick="openNext">Http</Button>	
+		<Button id="httpc" onClick="httpcd">Http Dinamic</Button>			
+		<View id="toolbar" />
+	</Window>
+</Alloy>

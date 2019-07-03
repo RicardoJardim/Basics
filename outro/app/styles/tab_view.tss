@@ -1,0 +1,52 @@
+"Window": {
+	backgroundColor: "#0047b3",
+	layout : 'vertical',
+	orientationModes: [
+		Ti.UI.PORTRAIT
+	]
+	
+}
+"Label": {
+	top: "2%",
+	bottom: "2%",
+	borderStyle: "Titanium.UI.INPUT_BORDERSTYLE_ROUNDED",
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	},
+	color:"white",
+}
+
+"TextField": {
+	backgroundColor: "white",
+	borderStyle: "Ti.UI.INPUT_BORDERSTYLE_BEZEL",
+	width: 350,
+	height: 50,
+	color: "black",
+	borderRadius:"12",
+	hintTextColor :"#808080",
+	hintText: "Inserir o novo NOME",
+}
+
+"#tab_id":{
+	height:"55%",
+	scrollIndicatorStyle: "4",
+	scrollable : true,
+	touchFeedbackColor: "red"
+}
+
+
+"Button":{
+	height: "10%",
+}
+
+"#save": {
+	top: "3%",
+	right: "10%",
+}
+
+"#buts": {
+	left: "10%",
+}

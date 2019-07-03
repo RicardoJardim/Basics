@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="win">
+		<Label id="area"/>		
+		<Label id="escolha">
+			Pick a User name to delete 
+		</Label>
+		<Picker id="picker"/>
+		<Button id="save" onClick="saveit">
+			SAve
+		</Button>
+		
+	</Window>
+</Alloy>
