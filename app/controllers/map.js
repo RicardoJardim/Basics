@@ -59,7 +59,6 @@ var mapview = MapModule.createView({
 var button = Ti.UI.createButton({
 	backgroundColor: "#000080",
 	title: "Back",
-	layout: "vertical",
 	bottom:"20%",
 	color:"#fff",
 	borderRadius: "5",
@@ -70,7 +69,6 @@ var button = Ti.UI.createButton({
 var button2 = Ti.UI.createButton({
 	backgroundColor: "#000080",
 	title: "Change our country",
-	layout: "vertical",
 	bottom:"10%",
 	color:"#fff",
 	borderRadius: "5",

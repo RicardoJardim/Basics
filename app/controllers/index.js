@@ -82,10 +82,11 @@ $.toolbar.add(cancel);
 
 
 cancel.addEventListener('click',function(e){
-	openNext();	
+	
+	var next_win = Alloy.createController('cont').getView();
+	next_win.open();
+	next_win = null;
 });
-
-
 
 
 
