@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>com.company.outro</id>
-    <name>outro</name>
+    <id>com.company.basics</id>
+    <name>Basics</name>
     <version>1.0</version>
-    <publisher>ricar</publisher>
+    <publisher>OTerrorista</publisher>
     <url/>
     <description/>
-    <copyright>2019 by Ricardo</copyright>
+    <copyright>2019 by Ricardo_OTerrorista</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
@@ -46,7 +46,7 @@
             <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="26"/>
             <application android:theme="@style/Theme.AppCompat.NoTitleBar"/>
             <meta-data
-                    android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyANacdkPwUKo7N2CGV_eJSq5HvLTGztZcM"/>
+                    android:name="com.google.android.maps.v2.API_KEY" android:value="...."/> <!--Insert your google key here -->
         </manifest>
     </android>
     <modules>
