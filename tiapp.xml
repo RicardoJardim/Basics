@@ -4,14 +4,14 @@
     <name>Basics</name>
     <version>1.0</version>
     <publisher>OTerrorista</publisher>
-    <url/>
-    <description/>
+    <url>undefined</url>
+    <description>undefined</description>
     <copyright>2019 by Ricardo_OTerrorista</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>false</analytics>
-    <guid>d7b499ec-bba7-47b2-9ccc-0144c6209f81</guid>
+    <guid>7c32da45-cd72-460d-9bbb-506a968489eb</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
     <property name="run-on-main-thread" type="bool">true</property>
     <ios>
@@ -45,8 +45,8 @@
         <manifest android:versionCode="1" xmlns:android="http://schemas.android.com/apk/res/android">
             <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="26"/>
             <application android:theme="@style/Theme.AppCompat.NoTitleBar"/>
-            <meta-data
-                    android:name="com.google.android.maps.v2.API_KEY" android:value="...."/> <!--Insert your google key here -->
+            <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="...."/>
+            <!--Insert your google key here -->
         </manifest>
     </android>
     <modules>
@@ -58,9 +58,9 @@
         <target device="android">true</target>
         <target device="windows">false</target>
     </deployment-targets>
-    <sdk-version>7.5.0.GA</sdk-version>
+    <sdk-version>8.0.2.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
-    <property name="appc-app-id" type="string">5c80499a1e81a953adedcc96</property>
+    <property name="appc-app-id" type="string">5d36ef8912efa309bd108cfa</property>
 </ti:app>
